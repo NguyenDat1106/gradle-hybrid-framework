@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommorce" parallel="method" thread-count="3">
+
+
+ <listeners>
+        <listener class-name="commons.MethodListener" />
+       <!--<listener class-name="report.config.ReportNGListener" />  -->
+        <listener class-name="report.config.ExtentTestListenerV5" />
+       <!--<listener class-name="org.uncommons.reportng.HTMLReporter" /> --> 
+       <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> --> 
+       <!--<listener class-name="report.config.AllureTestListener" />  -->
+</listeners>
+
+	
+
+  <test name="Run On Chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_22_Multiple_Environment_Owner"/>
+    </classes>
+  </test> 
+  
+<!--  <test name="Run On Chorme">-->
+<!--  <parameter name="browser" value="chrome"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test> --><!---->
+<!--  <test name="Run On Edge">-->
+<!--  <parameter name="browser" value="edge"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test> -->
+<!--  -->
+<!--  <test name="Run On Coccoc">-->
+<!--  <parameter name="browser" value="coccoc"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test> -->
+<!--  -->
+<!--  -->
+<!--  <test name="Run On Opera">-->
+<!--  <parameter name="browser" value="opera"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+</suite> 

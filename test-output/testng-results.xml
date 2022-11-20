@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T14:04:41Z" name="NopCommorce" finished-at="2022-11-11T14:04:53Z" duration-ms="11590">
+    <groups>
+    </groups>
+    <test started-at="2022-11-11T14:04:41Z" name="Run On Chrome" finished-at="2022-11-11T14:04:53Z" duration-ms="11590">
+      <class name="com.nopcommerce.user.Level_15_ExtentV5_Screenshot">
+        <test-method is-config="true" signature="initBeforeSuite()[pri:0, instance:com.nopcommerce.user.Level_15_ExtentV5_Screenshot@5026735c]" started-at="2022-11-11T14:04:41Z" name="initBeforeSuite" finished-at="2022-11-11T14:04:41Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBeforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_15_ExtentV5_Screenshot@5026735c]" started-at="2022-11-11T14:04:41Z" name="beforeClass" finished-at="2022-11-11T14:04:45Z" duration-ms="3700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="User_01_Register(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_15_ExtentV5_Screenshot@5026735c]" started-at="2022-11-11T14:04:45Z" name="User_01_Register" finished-at="2022-11-11T14:04:49Z" duration-ms="4492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nopcommerce.user.Level_15_ExtentV5_Screenshot.User_01_Register(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_01_Register -->
+        <test-method signature="User_02_Login(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_15_ExtentV5_Screenshot@5026735c]" started-at="2022-11-11T14:04:49Z" name="User_02_Login" finished-at="2022-11-11T14:04:52Z" duration-ms="2731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nopcommerce.user.Level_15_ExtentV5_Screenshot.User_02_Login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_02_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_15_ExtentV5_Screenshot@5026735c]" started-at="2022-11-11T14:04:52Z" name="afterClass" finished-at="2022-11-11T14:04:53Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Level_15_ExtentV5_Screenshot -->
+    </test> <!-- Run On Chrome -->
+  </suite> <!-- NopCommorce -->
+</testng-results>

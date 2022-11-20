@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Facebook">
+
+<listners>
+<listners class-name="commons.MethodListener" />
+</listners>
+
+<parameter name="url" value="https://www.facebook.com/"/>
+
+  <test name="Run On Chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.facebook.register.Level_13_Element_Undisplayed"/>
+    </classes>
+  </test> 
+  
+  
+<!--  <test name="Run On Chorme">-->
+<!--  <parameter name="browser" value="chrome"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test> --><!---->
+<!--  <test name="Run On Edge">-->
+<!--  <parameter name="browser" value="edge"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test> -->
+<!--  -->
+<!--  <test name="Run On Coccoc">-->
+<!--  <parameter name="browser" value="coccoc"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test> -->
+<!--  -->
+<!--  -->
+<!--  <test name="Run On Opera">-->
+<!--  <parameter name="browser" value="opera"/>-->
+<!--    <classes>-->
+<!--      <class name="com.nopcommerce.user.Level_04_Multiple_Browser"/>-->
+<!--    </classes>-->
+<!--  </test>-->
+</suite> 

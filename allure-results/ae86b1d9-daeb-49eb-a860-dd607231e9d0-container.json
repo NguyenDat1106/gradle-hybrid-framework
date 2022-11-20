@@ -1,0 +1,1 @@
+{"uuid":"ae86b1d9-daeb-49eb-a860-dd607231e9d0","name":"NopCommorce","children":["24ef942c-86a0-462b-947d-120a899b057b"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1668401530237,"stop":1668401530248}],"afters":[],"links":[],"start":1668401530207,"stop":1668401543884}
